@@ -40,7 +40,7 @@ public class UserController {
         String username = authentication.getName();
         session.setAttribute("name", username);
 
-        return "redirect:/home";
+        return "redirect:/";
     }
 
     @GetMapping("/logout")
